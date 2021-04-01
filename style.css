@@ -146,14 +146,16 @@ margin: 0 auto;
     font-size: 2rem;
 
 }
+
 .exchangeTable__container__1 , .exchangeTable__container__2 {
     margin: 0 auto ;
     width: 70%;
     height: fit-content;
     min-width: 235px;
     max-width: 500px;
-    font-family: Inter,sans-serif;
+
     margin-bottom: 4rem;
+    font-family: 'Inter',sans-serif;
 }
 .exchangeTable__table{
 
@@ -175,6 +177,8 @@ margin: 0 auto;
 .table__left{
     color: #B5B0AC;
     font-weight: 500;
+    line-height: 1.7rem;
+
 
 }
     .table__left.top__left{
@@ -188,7 +192,7 @@ margin: 0 auto;
 .table__right{
 
     color: #757575;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1.7rem;
 
 }
@@ -249,6 +253,103 @@ margin: 0 auto;
 .exchangeTable__textFooter__1,.exchangeTable__textFooter__2 p{
 color: var(--warm-black);
 line-height: 1.5rem;
+font-weight: 300;
+font-family: 'Inter',sans-serif;
+
 }
-.hola{
+
+
+.main__description{
+    background-color: var(--black);
+    padding: 20px 25px;
+    position: relative;
+}
+
+.description__patataLogo{
+    background-image: url(./assets/icons/batata.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:-12.5px;
+    left: calc(50% - 20px);    
+    width: 40px;
+    height: 25px;
+    position: absolute;
+
+}
+
+.description__encabezado{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;   
+    text-align: center;
+    margin-bottom: 10px;
+}
+.description__encabezado h2{
+
+    color:var(--just-white);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+
+}
+
+.description__encabezado p{
+    padding: 15px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:#808080
+
+}
+
+.description__card{
+ 
+    background-color: var(--warm-black);
+    margin-bottom:2rem ;
+    padding: 10px;
+}
+
+.description__card span{
+ 
+ height: 20px;
+ width:20px;
+  
+ display: inline-block;
+ background-repeat: no-repeat;
+ background-size: cover;
+    background-position:center;
+ margin-bottom: 5px;
+
+color: var(--just-white);
+
+}
+
+
+.card__clock{
+    
+    background-image: url(./assets/icons/clock.svg);
+    
+}
+.card__eye{
+    background-image: url(./assets/icons/eye.svg);
+}
+.card__dollar{
+    background-image: url(./assets/icons/dollar-sign.svg);
+}
+.card__check{
+    background-image: url(./assets/icons/check-circle.svg);
+}
+
+.card__title{
+    color:var(--just-white);
+    margin-bottom: 7px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card__text{
+    color:#858585;
+    line-height: 18px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 300;
 }
