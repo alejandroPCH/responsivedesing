@@ -1,0 +1,19 @@
+.carta__section--scroll{
+
+    overflow-x: hidden; 
+
+}
+.carta{
+    margin: 6rem auto;
+
+}
+.description__container{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+.description__card{
+    margin: 0 auto;
+
+}

@@ -31,7 +31,7 @@ header img{
 .header__titleContent{
     margin-top: 4rem;
 
-    width: 90%;
+    width: 85%;
     height: 218px;
 
     min-width: 288px;
@@ -109,7 +109,7 @@ background-repeat: no-repeat;
 
 }
 .main__exchangeContainer__text{
-    width: 90%;
+    width: 70%;
     min-width: 288px;
     max-width: 900px;
 margin: 0 auto;
@@ -309,6 +309,8 @@ font-family: 'Inter',sans-serif;
     background-color: var(--warm-black);
     margin-bottom:2rem ;
     padding: 10px;
+    max-width: 620px;
+    width: 100%;
 }
 
 .description__card span{
@@ -381,4 +383,181 @@ color: var(--just-white);
 
     color: var(--just-white);
 
+}
+.main__planes{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    min-height:568px ;
+    margin-top: 4rem;
+}
+.planes__title{
+    padding: 0 1.5rem;
+}
+.planes__title h2{
+   
+    font-size: 2.4rem;  
+    color: var(--warm-black);
+
+}
+.planes__title p{
+    font-size: 1.4rem;  
+    color: #757575;
+    margin:3rem 0;
+}
+
+.carta__section--scroll{
+
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x:contain;
+    scroll-snap-type: x proximity;
+
+}
+.carta{
+    scroll-snap-align: center;
+    position: relative;
+    background-image: linear-gradient(0deg, #f6d365 0%, #fda085 100%);
+    width: 50%;
+    min-width: 230px;
+    max-width: 300px;
+    min-height: 320px;
+    margin: 6rem 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(89,73,30, 0.16);
+}
+.carta h3{
+
+    position: absolute;
+    left: calc(50% - 57.5px);
+    top: -13px;
+    background-color:var(--bitcoin-orange) ;
+    min-width: 115px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 5px 0;
+
+    color:#ffffff;
+    border-radius: 5px;
+}
+
+.carta__informacion{
+    padding: 3rem 1.2rem 2rem;
+    
+}
+.carta__informacion--pagoAnual{
+    font-weight:500;
+    font-size: 2rem;
+    color:#ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.carta__informacion--precio{
+    margin: 2rem 3rem;
+    color: var(--just-white);
+
+    font-size: 10rem;
+letter-spacing: -8px;
+}
+.carta__informacion--precio .carta__informacion--signo{
+    font-size: 2rem;
+    vertical-align: text-top;
+}
+.carta__informacion--descripcion{
+    font-size: 1.4rem;
+    color: #f8f8f8;
+    padding-bottom: 2.4rem;
+}
+
+.carta__boton{
+    padding: 12px 16px;
+    background-color:#FAf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 5px;
+    line-height: 1.8rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+.carta__boton--arrow{
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+ 
+    width:20px;
+    height:20px;
+
+    vertical-align:text-bottom;
+}
+
+
+.fanatico{
+    background-image: linear-gradient(0deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.fanatico h3{
+
+    background-color: rgb(6, 156, 1);
+
+}
+
+.master{
+    background-image: linear-gradient(to top, #434343 0%, black 100%);
+}
+.master h3{
+    background-color: rgb(255, 217, 0);
+    color: #181818;
+}
+
+.master .carta__informacion--pagoAnual{
+
+    color: #ffffff;
+
+}
+
+footer{
+    background-color: var(--bitcoin-orange);
+    display: flex;
+    display: flex;
+    width: 100%;
+    height: 125px;
+}
+
+.footer__section1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer__list{
+
+    list-style: none;
+    color: var(--just-white);
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: 500;
+
+}
+
+.footer__section2{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.footer__section2 img{
+
+    height: 6rem;
+    width: 6rem;
+}
+.footer__logoText{
+    position: absolute;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+    color: var(--soft-orange);
 }

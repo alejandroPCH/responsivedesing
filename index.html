@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="varRoots.css">
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="only screen and (min-width:755px)" href="desktop.css">
+
     <title>Document</title>
 
 
@@ -134,9 +136,9 @@
         <p>Confiable y diseñado para su uso diario.</p>
 
     </div>
-
-        <article class="description__card">
-
+<div class="description__container">
+            <article class="description__card">
+            
             <span class="card__clock"></span>
             <p class="card__title">Tiempo real</p>
             <p class="card__text">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
@@ -165,6 +167,7 @@
             <p class="card__text">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
 
         </article>
+    </div>
 
     </section>
     <section class="main__backgroundGirl">
@@ -182,23 +185,64 @@
         <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
         </div>
 
-        
-        <article>
-            <h3>Recomendado</h3>
+        <section class="carta__section--scroll">
+        <article class="recomendado carta">
+            <h3 carta__h3>Recomendado</h3>
 
-            <div class="planes__box">
-                <p>Pago Anual</p>
-                <p><span>$</span>99</p>
-                <p>*Ahorras $129 comparado al plan mensual.</p>
-                <button>Escoger este <span></span></button>
+            <div class="carta__informacion">
+                <p class="carta__informacion--pagoAnual">Pago Anual</p>
+                <p class="carta__informacion--precio"><span class="carta__informacion--signo">$</span>99</p>
+                <p class="carta__informacion--descripcion">*Ahorras $201 comparado al plan mensual.</p>
+                <button class="carta__boton">Escoger este <span class="carta__boton--arrow"></span></button>
             </div>
 
         </article>
+        
+        <article class="fanatico carta">
+            <h3 carta__h3>Plan fanático</h3>
+
+            <div class="carta__informacion">
+                <p class="carta__informacion--pagoAnual">Pago mensual</p>
+                <p class="carta__informacion--precio"><span class="carta__informacion--signo">$</span>25</p>
+                <p class="carta__informacion--descripcion">*Pierdes $201 comparado al plan anual.</p>
+                <button class="carta__boton">Escoger este <span class="carta__boton--arrow"></span></button>
+            </div>
+
+        </article>
+
+        <article class="master carta">
+            <h3 carta__h3>Plan Master</h3>
+
+            <div class="carta__informacion">
+                <p class="carta__informacion--pagoAnual">Pago anual</p>
+                <p class="carta__informacion--precio"><span class="carta__informacion--signo">$</span>180</p>
+                <p class="carta__informacion--descripcion">*Seguimiento diario 24/7.</p>
+                <button class="carta__boton">Escoger este <span class="carta__boton--arrow"></span></button>
+            </div>
+
+        </article>
+     </section>
     </section>
 
     </main>
     
     <footer>
+        <section class="footer__section1">
+            <ul class="footer__list">   
+                <li>LinkedIn</li>
+                <li>CrunchBase</li>
+                <li>Hackernews</li>
+            </ul>
+        </section>
+        
+        <section class="footer__section2">
+            <picture>
+                <img src="./assets/icons/batata.svg" alt="Logo Batatabit 2020"></img>
+
+        </picture>
+
+            <p class="footer__logoText">*Batabit 2020</p>
+        </section>
 
     </footer>
 
